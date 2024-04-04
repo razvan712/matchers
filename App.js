@@ -12,26 +12,26 @@ export default function App() {
   const [appIsReady, setAppIsReady] = useState(false);
   const queryClient = new QueryClient();
 
-  useEffect(() => {
-    async function prepare() {
-      try {
-        await Font.loadAsync({
-          'SuperFunky': require('./assets/fonts/SuperFunky.ttf'),
-        });
-        await new Promise(resolve => setTimeout(resolve, 2000));
-      } catch (e) {
-        console.warn(e);
-      } finally {
-        setAppIsReady(true);
-      }
-    }
+  // useEffect(() => {
+  //   async function prepare() {
+  //     try {
+  //       await Font.loadAsync({
+  //         'SuperFunky': require('./assets/fonts/SuperFunky.ttf'),
+  //       });
+  //       await new Promise(resolve => setTimeout(resolve, 2000));
+  //     } catch (e) {
+  //       console.warn(e);
+  //     } finally {
+  //       setAppIsReady(true);
+  //     }
+  //   }
 
-    prepare();
-  }, []);
+  //   prepare();
+  // }, []);
 
-  if (!appIsReady) {
-    return <AppLoading />;
-  }
+  // if (!appIsReady) {
+  //   return <AppLoading />;
+  // }
 
   return (
     <QueryClientProvider client={queryClient}>

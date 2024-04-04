@@ -25,7 +25,7 @@ const DrawerNavigator = () => {
           backgroundColor: primaryColor,
         },
         headerTitleStyle: {
-          fontFamily: "SuperFunky",
+          // fontFamily: "SuperFunky",
         },
         headerTintColor: secondaryColor,
         headerRight: () => (

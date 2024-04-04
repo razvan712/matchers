@@ -31,7 +31,7 @@ container: {
     fontSize: 30,
     textAlign: 'center',
     margin: 10,
-    fontFamily: 'SuperFunky',
+    // fontFamily: 'SuperFunky',
     color: secondaryColor
   },
 

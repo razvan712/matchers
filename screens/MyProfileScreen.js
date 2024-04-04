@@ -25,7 +25,7 @@ const MyProfileScreen = ({ navigation }) => {
           fontWeight: "bold",
           marginBottom: 20,
           color: secondaryColor,
-          fontFamily: "SuperFunky",
+          // fontFamily: "SuperFunky",
           width: "80%",
           textAlign: "center",
         }}> 
@@ -54,7 +54,7 @@ const MyProfileScreen = ({ navigation }) => {
             fontWeight: "bold",
             marginBottom: 20,
             color: secondaryColor,
-            fontFamily: "SuperFunky",
+            // fontFamily: "SuperFunky",
             width: "80%",
             textAlign: "center",
           }}
